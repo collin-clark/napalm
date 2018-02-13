@@ -1,0 +1,6 @@
+! Example changes.txt file
+no ip domain-lookup
+alias interface show do show
+alias interface sh do show
+alias configure show do show
+alias configure sh do show
