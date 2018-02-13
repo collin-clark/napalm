@@ -44,7 +44,7 @@ print (diffs)
 commit_config = raw_input("Do you want to commit the changes [Y or N]? ") 
 
 if commit_config.lower() == 'y':
- print ("Committing the configuration ...")
+ print ("Commiting the configuration ...")
  device.commit_config()
  print ("Complete!")
  quit()
